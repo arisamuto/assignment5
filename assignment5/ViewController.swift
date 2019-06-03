@@ -24,8 +24,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        if saveData.array(forKey: "WORD") != nil {
-            wordArray = saveData.array(forKey: "WORD") as! [Dictionary<String, String>]
+        if saveData.array(forKey: "veges") != nil {
+            wordArray = saveData.array(forKey: "veges") as! [Dictionary<String, String>]
         }
    
     }
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     @IBAction func saveWord() {
         let vocab = ["kudamono": fruitTextFeild.text!, "yasai": vegeTextFeild.text!]
         wordArray.append(vocab)
-        saveData.set(wordArray, forKey: "WORD")
+        saveData.set(wordArray, forKey: "veges")
         
     }
     
