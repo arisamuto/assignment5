@@ -38,7 +38,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="保存"/>
                                 <connections>
-                                    <action selector="saveWord" destination="BYZ-38-t0r" eventType="touchUpInside" id="bLe-DE-xMx"/>
+                                    <action selector="saveWordWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CNF-M9-6Za"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pvv-7o-XJf">
